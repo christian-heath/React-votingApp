@@ -1,0 +1,50 @@
+.rectangle {
+  border-width: thick;
+  border-style: solid;
+  border-color: black;
+  padding: 0.8rem;
+  padding-right: 2rem;
+  margin: 0 1.2rem;
+  display: flex;
+  width: 30rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.count-div {
+  border-radius: 1rem;
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
+  color: red;
+  width: 1rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.language {
+  display: inline-block;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  padding: 0;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.fa-plus-circle {
+  color: dodgerblue;
+}
+
+.fa-plus-circle:hover {
+  color: royalblue;
+}
